@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bett Consultancy | Web Development and Digital Design</title>
+  <meta name="description" content="Bett Consultancy builds modern, responsive websites, landing pages and graphic designs for small businesses, startups and entrepreneurs.">
+  <meta property="og:title" content="Bett Consultancy | Web Development and Digital Design">
+  <meta property="og:description" content="Modern websites and creative digital designs for growing businesses.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a href="#home" class="logo">Bett<span>Consultancy</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" class="btn btn-primary btn-small">Hire Me</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="label">BETT CONSULTANCY</p>
+      <h1>Turning Ideas Into <span class="gradient-text">Digital Experiences.</span></h1>
+      <p class="lead">I create modern websites and creative digital designs that help businesses establish their online presence.</p>
+      <div class="btn-row">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-card" aria-label="Creative. Modern. Purposeful.">
+      <img class="avatar" src="images/profile.jpg" alt="Portrait of the founder of Bett Consultancy" width="120" height="120">
+      <p class="hero-words">Creative.<br>Modern.<br>Purposeful.</p>
+      <p>Building digital experiences, one project at a time.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section alt">
+  <div class="container about-grid">
+    <img class="about-photo" src="images/about.jpg" alt="Portrait of the founder of Bett Consultancy seated at a desk with a laptop" width="700" height="933" loading="lazy">
+    <div>
+      <p class="label">GET TO KNOW ME</p>
+      <h2>About Bett Consultancy</h2>
+      <p>I am an aspiring web developer and graphic designer building digital skills to help businesses grow, communicate their ideas and establish a strong online presence.</p>
+      <!-- EDIT LATER: add your biography, background and professional goals as new paragraphs here. -->
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container">
+    <p class="label">WHAT I OFFER</p>
+    <h2>My Services</h2>
+    <div class="grid">
+      <article class="card">
+        <div class="icon" aria-hidden="true">&lt;/&gt;</div>
+        <h3>Website Development</h3>
+        <p>Modern, responsive websites designed to work across phones, tablets, and computers.</p>
+      </article>
+      <article class="card">
+        <div class="icon" aria-hidden="true">&#9998;</div>
+        <h3>Graphic Design</h3>
+        <p>Creative visual designs for businesses, brands, and digital platforms.</p>
+      </article>
+      <article class="card">
+        <div class="icon" aria-hidden="true">&#9638;</div>
+        <h3>Landing Page Design</h3>
+        <p>Focused web pages that present a business, product, or service clearly.</p>
+      </article>
+      <!-- To add a service: copy one <article class="card"> block and edit the text. -->
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section alt">
+  <div class="container">
+    <p class="label">MY WORK</p>
+    <h2>Featured Projects</h2>
+    <p class="intro">I am developing projects to demonstrate my web development and design skills. My completed work will appear here.</p>
+    <div class="grid">
+      <article class="card project">
+        <img class="thumb-img" src="images/bakery-1.jpg" alt="Preview of the Bold Bakery website home page" width="1100" height="1237" loading="lazy">
+        <span class="badge">Demo concept</span>
+        <h3>Business Website</h3>
+        <p>A website design for a fictional bakery, with a menu, order form and customer feedback survey.</p>
+        <p class="tech">Web design and layout</p>
+        <button type="button" class="btn btn-outline btn-small" data-project="bakery">View Project</button>
+      </article>
+      <article class="card project">
+        <img class="thumb-img" src="images/poster.jpg" alt="Event poster design for Bethlehem Church" width="1000" height="605" loading="lazy">
+        <span class="badge">Sample work</span>
+        <h3>Creative Design Gallery</h3>
+        <p>Original graphic design work, starting with an event poster. More posters, social media graphics and branding concepts coming soon.</p>
+        <p class="tech">Graphic design, visual branding</p>
+        <button type="button" class="btn btn-outline btn-small" data-project="poster">View Project</button>
+      </article>
+      <article class="card project">
+        <div class="thumb thumb-3" aria-hidden="true"><i></i><i></i><i></i></div>
+        <span class="badge">Concept in progress</span>
+        <h3>Business Landing Page</h3>
+        <p>A focused, attractive page presenting a product or service.</p>
+        <p class="tech">HTML, CSS, JavaScript, responsive design</p>
+        <a href="#" class="btn btn-outline btn-small disabled" aria-disabled="true">View Project (coming soon)</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container contact-grid">
+    <div>
+      <p class="label">HAVE A PROJECT IN MIND?</p>
+      <h2>Let's Build Something Great.</h2>
+      <p>Have an idea for a website or a digital design? Get in touch to discuss your project.</p>
+      <ul class="contact-list">
+        <li><strong>Phone:</strong> <a href="tel:+254112813110">+254 112 813 110</a></li>
+        <li><strong>Email:</strong> <a href="mailto:bettconsultancy@gmail.com">bettconsultancy@gmail.com</a></li>
+        <li><a class="btn btn-whatsapp btn-small" href="https://wa.me/254112813110" target="_blank" rel="noopener">Chat on WhatsApp</a></li>
+      </ul>
+      <p class="socials">
+        <a href="https://www.facebook.com/profile.php?id=61594531840177" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/bettconsultancy" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.tiktok.com/@brianbett46" target="_blank" rel="noopener">TikTok</a>
+      </p>
+    </div>
+
+    <form id="contactForm" class="card form" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" autocomplete="name" required>
+      <span class="error" id="nameError" role="alert"></span>
+
+      <label for="email">Email address</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+      <span class="error" id="emailError" role="alert"></span>
+
+      <label for="service">Service requested</label>
+      <select id="service" name="service">
+        <option>Website Development</option>
+        <option>Graphic Design</option>
+        <option>Landing Page</option>
+        <option>Other</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <span class="error" id="messageError" role="alert"></span>
+
+      <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year">2026</span> Bett Consultancy. All rights reserved.</p>
+    <p>Websites and designs built with care for growing businesses.</p>
+  </div>
+</footer>
+
+<dialog id="projectDialog" class="dialog" aria-label="Project preview">
+  <button type="button" class="btn btn-primary btn-small dialog-close" id="dialogClose">Close</button>
+  <div id="dialogBody"></div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
